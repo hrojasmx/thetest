@@ -1,0 +1,18 @@
+.block2 {
+    width: 100%;
+    /*height: 800px;*/
+    position: relative;
+
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: white;
+    /*background-color: mediumvioletred;*/
+}
+
+.theImage {
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 23%;
+    height: auto;
+}

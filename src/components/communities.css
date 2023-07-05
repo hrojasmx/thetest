@@ -1,0 +1,65 @@
+.block1 {
+    width: 100%;
+    height: 800px;
+
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background-color: white;
+    /*background-color: mediumvioletred;*/
+}
+
+.communities {
+    display: flex;
+    flex-direction: column;
+    height:230px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.communities p {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.listContainer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.listItem {
+    height: 65px;
+    display: flex;
+    padding: 5px 10px 5px 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+p.theName {
+    font-size: 14px;
+    margin:0;
+    padding: 0 0 0 10px ;
+}
+
+div.theControls {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
